@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mileage Sim</string>
+    <string name="app_title">Autonomia do Automóvel</string>
+    <string name="input_consumoMedio">Consumo médio (km/l)</string>
+    <string name="input_tanque">Qtd. de Litros no Tanque</string>
+    <string name="output_autonomia">Pode rodar até %1$d metros no total</string>
+    <string name="erro">Campo vazio!</string>
+    <string name="btnCalc">Calcular</string>
+</resources>
