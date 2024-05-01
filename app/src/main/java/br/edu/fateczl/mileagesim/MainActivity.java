@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             int consumoMedio = Integer.parseInt(inputConsumoMedio.getText().toString());
             int litrosTanque = Integer.parseInt(inputLitros.getText().toString());
-            int mileage = (consumoMedio * litrosTanque) * 100;
+            int mileage = (consumoMedio * litrosTanque) * 1000;
             String calc = String.format(getString(R.string.output_autonomia), mileage);
             outputAutonomia.setText(calc);
         }catch (Exception e) {
